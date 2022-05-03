@@ -148,7 +148,7 @@ grouped_pairs = group_into_n(tradingview_pairs, n)
 # /Users/raysonkong/code/python/webscrapping/scripts_v2/cmc_api_to_tradingview/outputs
 def output_to_text_file(nested_grouped_pairs):
     for idx, group in enumerate(nested_grouped_pairs):
-            filename=f"{os.getcwd()}/CMC_{generation_date}@{current_time}/{idx+1}.CMC p.{idx+1} ({generation_date}).txt"
+            filename=f"{os.getcwd()}/CMC_{generation_date}@{current_time}total{HOW_MANY_COINS}/{idx+1}.CMC p.{idx+1} ({generation_date}).txt"
             os.makedirs(os.path.dirname(filename), exist_ok=True)
             with open(filename, "w") as f:
                 for pair in group:
