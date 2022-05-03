@@ -7,6 +7,8 @@ import os
 from config import *
 
 SLEEP_TIME = 0.2
+# API_KEY = "Your CMC api key"
+
 
 # Constants from config
 
