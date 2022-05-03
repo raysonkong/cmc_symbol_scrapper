@@ -164,7 +164,7 @@ def run_srapper():
     output_to_text_file(grouped_pairs)
 
     time.sleep(SLEEP_TIME)
-    print("Requesting Data from LunarCrush...")
+    print("Requesting Data from CoinMarketCap...")
     time.sleep(SLEEP_TIME)
     print("...")
     time.sleep(SLEEP_TIME)
